@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background:rgb(0, 0, 0)
+}
+
+
+
+header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 35px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.50s ease;
+    background-color: #fff;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: left;
+    font-size: 34px;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'PinkCandyPopcornFont', sans-serif;
+    color: rgb(45, 229, 25);
+    
+}
+
+.categories{
+    display: flex;
+}
+
+.categories a{
+    display: inline-block;
+    margin: 0 35px;
+    color:#000000;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-family: "Nerko One", system-ui;
+
+}
+
+.categories a:hover{
+    text-shadow: 3px 3px 40px #14d514, -2px 1px 30px #14d514;
+}
+
+.categories-right{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 14px 35px;
+    background:#ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-right: 12px;
+    transition: all 0.6s ease;
+}
+
+.btn:hover{
+    background: #14d514;
+    color: #fff;
+    box-shadow: 0 0 20px #4be11e;
+    transform: scale(1.02);
+
+}
+
+#menu-icon{
+    font-size: 34px;
+    color: #000000;
+    z-index: 10000;
+    cursor: pointer;
+    display: none;
+}
+
+.Watch{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Nerko one", system-ui;
+    
+}
+.Watch h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+@media(max-width:1300px){
+    header{
+        padding: 20px 4%;
+    }
+}
+@media(max-width:1050px){
+    .logo{
+        font-size: 25px;
+    }
+    .categories a{
+        margin: 0 25px;
+    }
+    .btn{
+        padding: 12px 23px;
+    }
+    .Watch h1{
+        font-size: 3.2rem;
+    }
+}
+@media(max-width: 940px){
+    #menu-icon{
+        display: none;
+    }
+    .categories {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        backdrop-filter: blur(32px);
+        display: block;
+        flex-direction: column;
+        padding-top: 180px;
+        transition: all .7s ease;
+        text-align: center;
+
+    }
+}
+
+.responsive {
+    max-width: 200%;
+    height: auto;
+    width: 150%;
+    
+    
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 2px;
+    margin-bottom: 50%;
+  }
