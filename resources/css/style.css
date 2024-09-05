@@ -24,6 +24,7 @@ header{
     justify-content: space-between;
     transition: all 0.50s ease;
     background-color: #fff;
+    
 }
 
 
@@ -36,7 +37,7 @@ header{
     font-weight: 800;
     font-family: 'PinkCandyPopcornFont', sans-serif;
     color: rgb(45, 229, 25);
-    
+   
 }
 
 .categories{
@@ -94,7 +95,7 @@ header{
 .Watch{
     height: 100vh;
     width: 100%;
-    display: flex;
+    display: flex   ;
     align-items: center;
     justify-content: center;
     color: #ffffff;
@@ -160,5 +161,86 @@ header{
   .column {
     flex: 33.33%;
     padding: 2px;
-    margin-bottom: 50%;
+   
   }
+
+
+.NES{
+    display: flex;
+}
+.NES a{
+    font-size:20px;
+    font-weight: 800;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 750px;
+    left: 106px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    word-wrap: break-word;
+    font-family: "Nerko One", system-ui;
+    text-shadow:#14d514;
+    transition: all 0.3s ease;
+    
+
+}
+
+.NES a:hover{
+    text-shadow: 3px 3px 40px #14d514, -2px 1px 30px #14d514; 
+
+}
+
+.Activites{
+    display: flex;
+}
+
+.Activites a{
+    font-size:20px;
+    font-weight: 800;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 1150px;
+    left: 720px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    word-wrap: break-word;
+    font-family: "Nerko One", system-ui;
+    text-shadow:#14d514;
+    transition: all 0.3s ease;
+}
+
+.Activites a:hover{
+    text-shadow: 3px 3px 40px #14d514, -2px 1px 30px #14d514; 
+}
+
+.Sixth{
+    display: flex;
+}
+
+.Sixth a{
+    font-size:20px;
+    font-weight: 800;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 1550px;
+    left: 1335px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    word-wrap: break-word;
+    font-family: "Nerko One", system-ui;
+    text-shadow:#14d514;
+    transition: all 0.3s ease;
+}
+
+.Sixth a:hover{
+    text-shadow: 3px 3px 40px #14d514, -2px 1px 30px #14d514; 
+}
